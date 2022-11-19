@@ -1,6 +1,6 @@
 # Threadsafe Bees
 
-A simple mod that fixes two important issues with bees and multithreading
+A simple mod that fixes an critical issue with beehives and multithreading
 
 ## License
 MIT License

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "thread-safe-beehives",
   "version": "${version}",
 
   "name": "Mod Name",
@@ -13,21 +13,19 @@
   },
 
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/thread-safe-bees/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "modid.ModName"
+      "thread.safe.beehives.ThreadSafeBeehives"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "thread-safe-bees.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.11.3",
-    "fabric": "*",
     "minecraft": "1.17.x",
     "java": ">=16"
   }
